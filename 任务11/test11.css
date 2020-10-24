@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#header {
+    padding: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.header1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.header_a {
+    display: block;
+    height: 53px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 53px;
+}
+
+.heh1 {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    background-color: #f576a69d;
+    color: #fff;
+    height: 53px;
+    line-height: 53px;
+}
+
+.ul1 {
+    background: #fff;
+    width: 100%;
+    height: 52px;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul1 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 20%;
+    margin: 0 10px;
+}
+
+.ul1 li a {
+    text-decoration: none;
+    color: black;
+}
+
+.ul4 li:hover {
+    border-bottom: 2px solid black;
+    background: rgb(158, 158, 158);
+}
+
+.box1 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.imgs1 img {
+    display: block;
+    height: 641px;
+}
+
+.part1 {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 106px;
+}
+
+.box1_box {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 23px;
+    line-height: 20px;
+}
+
+.part1 a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.part1 .box1_box:hover {
+    background: rgb(156, 156, 156);
+}
+
+.box1_box img {
+    height: 52px;
+    display: block;
+    border-radius: 100%;
+}
+
+.box1_box p {
+    color: pink;
+    text-align: center;
+}
+
+.pic {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    border-top: 2px solid #dddddd;
+}
+
+.pic1, .pic2 {
+    display: block;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    text-decoration: none;
+    color: #000;
+}
+
+.fl1 {
+    border-right: 1px solid gray;
+}
+
+.pic img {
+    margin-top: 5px;
+    display: block;
+    width: 104px;
+}
+
+.pic a:hover {
+    background: gray;
+}
+
+.box2 {
+    border-top: 20px solid #eeeeee;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.box2 h1 {
+    color: rgb(240, 204, 137);
+    font-weight: 400;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 192, 203, 0.336);
+    background-color: rgba(233, 142, 233, 0.377);
+}
+
+.text2 {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.a1 {
+    margin-left: 20px;
+    margin-right: 10px;
+    display: block;
+    width: 30%;
+    height: 188px;
+    background: url(img/xiaohongm.png) no-repeat;
+}
+
+.text2c {
+    width: 65%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.box2_div {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.child {
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    line-height: 74px;
+    width: 50%;
+    margin: 10px;
+    height: 74px;
+    background: #f576a69d;
+}
+
+.box3 {
+    border-top: 20px solid rgba(156, 156, 156, 0.438);
+    margin-bottom: 10px;
+}
+
+.box3 h1 {
+    color: rgb(240, 204, 137);
+    font-weight: 400;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 192, 203, 0.473);
+    background-color: rgba(233, 142, 233, 0.295);
+}
+
+.box4 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4part1, .box4part2 {
+    display: block;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 148px;
+    width: 100%;
+    padding: 10px;
+}
+
+.cl1 {
+    display: block;
+    height: 148px;
+    width: 33.3%;
+    background: url(img/小白.jpg) no-repeat;
+    margin-left: 20px;
+}
+
+.cl2 {
+    width: 66%;
+    height: 148px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.cl2 h1 {
+    margin: 0;
+    font-size: 22px;
+    color: #000;
+}
+
+.cl2 p {
+    margin: 0;
+    color: gray;
+}
+
+.box4part2 {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.box4part2 h1 {
+    font-size: 22px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: rgb(199, 146, 81);
+}
+
+.box4part2 p {
+    color: gray;
+}
+
+.box4_img {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.box4_img img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.box4part2 img {
+    display: block;
+    width: 33.3%;
+}
+
+@media screen and (max-width:640px) {
+    #body {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    #header {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+    .header1 {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        background: rgba(233, 142, 233, 0.801);
+    }
+    .header_a {
+        display: block;
+        height: 53px;
+        text-decoration: none;
+        color: #fff;
+        line-height: 53px;
+    }
+    .heh1 {
+        font-size: 16px;
+        color: #fff;
+        height: 53px;
+        width: 90%;
+        text-align: center;
+        line-height: 53px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    .top {
+        width: 100%;
+    }
+    .ul1 {
+        background: #fff;
+        padding: 0;
+        height: 52px;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .ul1 li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 52px;
+        width: 20%;
+        margin: 0 10px;
+    }
+    .ul1 li a {
+        text-decoration: none;
+        color: black;
+    }
+    .ul1 li:hover {
+        border-bottom: 1px solid black;
+    }
+    .box1 {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .imgs1 img {
+        display: block;
+        height: 641px;
+    }
+    .bq {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .box1_box img {
+        height: 52px;
+        display: block;
+        border-radius: 100%;
+    }
+    .box1_box p {
+        text-align: center;
+    }
+}
